@@ -17,10 +17,9 @@ body {
     width: 8%;
     margin: auto;
     display: block;
-    
 }
 
-.cv {
+.cv { 
     background-color: rgb(17, 150, 160);
     color: rgb(10, 16, 95);
     font: bold;

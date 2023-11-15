@@ -5,51 +5,70 @@ body {
     font-family: 'Merriweather';
 }
 
+header, section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .imagen-banner {
     background-image: url(../img/develop.png);
     background-size: cover;
-    width: 100%;
-    height: 200px;
-    opacity: 0.8;
+    width: 97.42%;
+    height: 225px;
+    opacity: 0.5;
     display: block;
+    position: absolute;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
 }
 .foto-cv {
     width: 8%;
-    margin: auto;
-    display: block;
+    margin-top: 5rem;
+    border-radius: 20rem;
+    z-index: 1;
 }
 
 .cv { 
     background-color: rgb(17, 150, 160);
     color: rgb(10, 16, 95);
     font: bold;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    margin: 0px 50px 0px;
     padding: 12px;
+    margin: 0;
 }
 
 
 nav {
     background-color:#e7f6f7; 
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    margin: 0px 50px 100px;
-    padding: 30px;
-    display: block;
+    padding: 20px;
 }
 
-.biografia {
+
+.link {
     text-decoration-line: none;
     color: midnightblue;
 }
+
+.link:hover{
+    color: rgb(21, 90, 136);
+}
+
 
 h2 {
     background-color:rgb(17, 150, 160);
     color: midnightblue;
     padding: 10px;
-    margin: 50px
-    
+    text-indent: 60px;
+
 }
 
 .subt {
@@ -68,26 +87,33 @@ h2 {
     padding-left: 0px;
 }
 
-p {
+.redes {
     background-color: rgb(17, 150, 160);
     text-align: center;
-    padding: 10px;
-    margin: 50px;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    color: midnightblue;
 }
 
 .fa-brands {
     color: midnightblue;
     font-size: 30px;
+    padding-right: 5px;
 }
+
 
 /* css página sobre mi */
 
 .sobremi {
     background-color: rgb(17, 150, 160);
     margin: 0px 250px;
+    padding: 1rem;
     color: rgb(235, 235, 247);
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: justify;
 }
 
@@ -95,12 +121,28 @@ p {
     text-align: center;
     color:midnightblue;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
 
 }
 .home {
     color: midnightblue;
+    text-decoration: none;
+    font-size: 20px;
 }
+
+.home:hover{
+    color: rgb(21, 90, 136);
+}
+
+.fa-brands:hover {
+    color: rgb(21, 90, 136);
+    transform: scale(1.1);
+} 
+
+
+
+
+
 
 
 

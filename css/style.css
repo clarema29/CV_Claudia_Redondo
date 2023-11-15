@@ -16,8 +16,8 @@ header, section {
 .imagen-banner {
     background-image: url(../img/develop.png);
     background-size: cover;
-    width: 97.42%;
-    height: 225px;
+    width: 97.12%;
+    height: 210px;
     opacity: 0.5;
     display: block;
     position: absolute;
